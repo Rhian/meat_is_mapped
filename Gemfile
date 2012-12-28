@@ -13,6 +13,7 @@ gem 'uglifier', '>= 1.0.3'
 gem 'jquery-rails'
 
 gem 'watir-webdriver'
+gem 'cucumber'
 gem 'webrat'
 gem 'json'
 gem 'sqlite3'

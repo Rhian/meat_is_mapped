@@ -11,6 +11,9 @@ MeatMap::Application.configure do
   # Disable Rails's static asset server (Apache or nginx will already do this)
   config.serve_static_assets = false
 
+  # define path to root
+  Rails.root = /home/RubyExamples/MeatMap
+
   # Compress JavaScripts and CSS
   config.assets.compress = true
 

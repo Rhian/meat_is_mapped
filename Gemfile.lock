@@ -105,6 +105,7 @@ GEM
       multi_json (~> 1.0)
     fastercsv (1.5.5)
     ffi (1.2.0)
+    geocoder (1.1.6)
     geokit (1.6.5)
       multi_json
     gherkin (2.11.5)
@@ -210,6 +211,7 @@ DEPENDENCIES
   dm-is-versioned
   dm-migrations
   dm-sqlite-adapter
+  geocoder
   gmaps4rails
   haml
   jquery-rails

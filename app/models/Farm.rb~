@@ -1,0 +1,21 @@
+require 'dm-sqlite-adapter'
+require 'dm-rails'
+require 'dm-migrations'
+require 'data_mapper'
+require 'gmaps4rails'
+
+adapter = DataMapper.setup(:default, 'sqlite3:///home/user/RubyExamples/MeatMap/db/animal_data.sqlite3.db')
+
+class Farm
+  include DataMapper::Resource
+  property :id, Serial, :key => true
+  property :name, String
+  property :address, String
+  property :postcode, String
+  property :latitude, Float
+  property :longitude, Float
+end
+
+
+DataMapper.finalize
+DataMapper.auto_upgrade!

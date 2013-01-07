@@ -1,0 +1,2 @@
+module AbbatoirsHelper
+end

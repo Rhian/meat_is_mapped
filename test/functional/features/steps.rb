@@ -9,5 +9,5 @@ When /^I am on the home page$/ do
   end
 
 Then /^I should see a map$/ do
-  @browser.div(:id => "map_canvas") == true
+  @browser.div(:id => "map") == true
 end

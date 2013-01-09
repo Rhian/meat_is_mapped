@@ -24,11 +24,15 @@ task :scrape_abdata do
         @three = postcodes.text.split(//).last(8).join.to_s
       end
 
-    # update model with new data
+    # update model with new data or give error message if not scraped
 
-      update = DBCONN.connection.raw_connection.prepare("INSERT INTO abbatoirs (name, address, postcode) VALUES(:name, :address, :postcode)")
-      update.execute(:name => @one, :address => @two, :postcode => @three)
-      update.close
+      if @three != nil
+        update = DBCONN.connection.raw_connection.prepare("INSERT INTO abbatoirs (name, address, postcode) VALUES(:name, :address, :postcode)")
+        update.execute(:name => @one, :address => @two, :postcode => @three)
+        update.close
+      else
+        puts "No postcodes were scraped"
+      end
 
     end
   end

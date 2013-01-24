@@ -1,6 +1,7 @@
 class AbbatoirsController < ApplicationController
   def map
-    @json = Abbatoir.all.to_gmaps4rails
-  end
+      @abbatoirs = Abbatoir.all
+      @json = @abbatoirs.to_gmaps4rails
+    end
 end
 

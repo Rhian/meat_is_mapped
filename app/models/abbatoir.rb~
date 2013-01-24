@@ -12,7 +12,7 @@ class Abbatoir < ActiveRecord::Base
   end
 
   def gmaps4rails_marker_picture
-    {   :picture => "/assets/" + self.category + ".jpg",
+    {   :picture => "/images/" + self.category + ".jpg",
         :width => 24,
         :height => 24
     }

@@ -9,7 +9,7 @@ desc "scrape farm details"
 
 task :scrape_farms do
 
-  DBCONN = ActiveRecord::Base.establish_connection({:adapter => "sqlite3", :database => '/db/animal_data.sqlite3'})
+  DBCONN = ActiveRecord::Base.establish_connection({:adapter => "sqlite3", :database => '///home/user/RubyExamples/MeatMap/db/animal_data.sqlite3'})
 
   for pgnum in 1..1224 do
     @page = Nokogiri::HTML(RestClient.get("http://xxxxxxxxxxxxxxxxx/page/#{pgnum}"))

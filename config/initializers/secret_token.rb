@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-MeatMap::Application.config.secret_token = '24747620d2885c7c0c8c99be191cbf29e837ac5fd3be670634fe654e3cb32e7ecddbdf410cd2d26e893096ba339efb98ab8d0f86fc9544153c17e346602b8f1a'
+MeatMap::Application.config.secret_token = '8476f8efa40e8ecadf51aeb31ae207232e0339d6fb6f142881e98c98bc7f1203f629c4cf75ffed90e19671060be01445a36cc154bfd346b04fe907dfea75a5aa'

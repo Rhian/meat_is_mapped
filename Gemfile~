@@ -4,9 +4,11 @@ gem 'rails', '3.2.3'
 
 gem 'sqlite3'
 
-gem 'cucumber', :require => false
-gem 'rspec-rails'
-gem 'cucumber-rails', :require => false
+group :test do
+  gem 'cucumber', '1.2.0'
+  gem 'cucumber-rails'
+end
+
 
 gem 'sass-rails',   '~> 3.2.3'
 gem 'coffee-rails', '~> 3.2.1'
@@ -16,6 +18,7 @@ gem 'uglifier', '>= 1.0.3'
 gem 'jquery-rails'
 
 gem 'watir-webdriver'
+gem 'cucumber'
 gem 'webrat'
 gem 'json'
 gem 'sqlite3'

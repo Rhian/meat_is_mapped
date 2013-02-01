@@ -3,8 +3,6 @@ MeatMap::Application.routes.draw do
   get "abbatoirs/new"
 
   root :to => 'abbatoirs#map'
-
-
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

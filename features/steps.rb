@@ -19,7 +19,7 @@ end
 When /^I click to expand the map$/ do 
   @browser.div(:class => "cluster", :index => 0).click
   @browser.wait
-  @browser.div(:class => "cluster", :index => 1).click
+  @browser.div(:class => "cluster", :index => 2).click
   @browser.wait
 end
 

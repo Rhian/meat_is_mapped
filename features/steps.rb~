@@ -24,7 +24,7 @@ When /^I click to expand the map$/ do
 end
 
 When /^I click on a marker$/ do
-  @browser.img(:index => n).click
+  @browser.img.click
 end
 
 Then /^I should see an infobox containing text$/ do

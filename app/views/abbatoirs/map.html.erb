@@ -9,7 +9,7 @@
 <%= stylesheet_link_tag 'gmaps4rails' %>
 </head>
 <body>
-<%= gmaps(:markers => {:data => @json, :options => { :do_clustering => true, :clusterer_maxZoom => 8}, :map_options => {zoom: 15, :auto_adjust => true}}) %>
+<%=  gmaps(:map_options => {"auto_zoom" => false, "zoom" => 6, "bounds" => '[{"lat": 47, "lng": 2 }, {"lat": 60 , "lng": 4 }]'}, :markers => {:data => @json, :options => { :do_clustering => true, :clusterer_maxZoom => 8}}) %>
 
 </body>
 </html>

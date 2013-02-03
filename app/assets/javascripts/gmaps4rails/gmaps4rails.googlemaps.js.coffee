@@ -96,11 +96,6 @@ class @Gmaps4RailsGoogle extends Gmaps4Rails
   createSize : (width, height) ->
     return new google.maps.Size(width, height)
 
-	#add event listener to help with automated testing
- # marker.event.addListener google.maps, "click", (object) ->
-  #  position_clicked = object.latLng
-   # alert position_clicked
-
   #////////////////////////////////////////////////////
   #////////////////////// Markers /////////////////////
   #////////////////////////////////////////////////////

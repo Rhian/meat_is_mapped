@@ -2,5 +2,5 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
 
-google.maps.event.addListener Gmaps4Rails.map.map, "click", (object) ->
+@markers.event.addListener Gmaps4Rails.map.map, "mousedown", (object) ->
   alert object.latLng

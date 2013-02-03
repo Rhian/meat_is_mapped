@@ -98,8 +98,8 @@ class @Gmaps4RailsGoogle extends Gmaps4Rails
 
 	#add event listener to help with automated testing
   marker.event.addListener google.maps, "click", (object) ->
-    position_clicked = object.latLng
-    alert position_clicked
+  position_clicked = object.latLng
+  alert position_clicked
 
   #////////////////////////////////////////////////////
   #////////////////////// Markers /////////////////////

@@ -1,3 +1,5 @@
+require 'gmaps4rails'
+
 class AbbatoirsController < ApplicationController
    def map
       @abbatoirs = Abbatoir.all

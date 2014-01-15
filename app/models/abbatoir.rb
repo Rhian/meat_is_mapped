@@ -1,3 +1,5 @@
+require 'gmaps4rails'
+
 class Abbatoir < ActiveRecord::Base
 	acts_as_gmappable :check_process => true
 

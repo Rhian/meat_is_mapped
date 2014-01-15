@@ -1,18 +1,17 @@
 source 'http://rubygems.org'
 
-gem 'rails', '4.0.2'
+gem 'rails', '3.2.3'
 
 gem 'sqlite3'
-gem 'gmaps4rails', '1.5.6'
 
 gem 'cucumber', :require => false
 gem 'rspec-rails'
 gem 'cucumber-rails', :require => false
 
-gem 'sass-rails'
-gem 'coffee-rails'
+gem 'sass-rails',   '~> 3.2.3'
+gem 'coffee-rails', '~> 3.2.1'
 
-gem 'uglifier'
+gem 'uglifier', '>= 1.0.3'
 
 gem 'jquery-rails'
 
@@ -22,6 +21,7 @@ gem 'json'
 gem 'sqlite3'
 gem 'haml'
 gem 'sinatra'
+gem 'gmaps4rails'
 gem 'nokogiri'
 gem 'rest-client'
-gem 'protected_attributes'
+gem 'anemone'

@@ -31,3 +31,4 @@ Then /^I should see an infobox containing text$/ do
   pending # express the regexp above with the code you wish you had
 end
 
+/Users/Rhian/.rvm/rubies/ruby-1.9.3-p448/bin/ruby:/Users/Rhian/.rvm/gems/ruby-1.9.3-p448/bin:/Users/Rhian/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/Rhian/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/Rhian/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
